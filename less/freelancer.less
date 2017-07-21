@@ -214,11 +214,11 @@ section.success {
 	}
 }
 
-#portfolio {
-    .portfolio-item {
+#highlights {
+    .highlights-item {
         margin: 0 0 15px;
         right: 0;
-        .portfolio-link {
+        .highlights-link {
             display: block;
             position: relative;
             max-width: 400px;
@@ -261,8 +261,8 @@ section.success {
 }
 
 @media(min-width:767px) {
-    #portfolio {
-        .portfolio-item {
+    #highlights {
+        .highlights-item {
             margin: 0 0 30px;
         }
     }
@@ -399,7 +399,7 @@ footer {
     }
 }
 
-.portfolio-modal {
+.highlights-modal {
 	.modal-content {
 	    border-radius: 0;
 	    background-clip: border-box;
@@ -485,4 +485,19 @@ footer {
 
 div#maincontent{
 	outline: none;
+}
+
+.octocat {
+    border: 0;
+    color: #f4f5f6;
+    fill: #c0392b;
+    height: 6.2rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 6.2rem;
+    z-index: 999999;
+}
+.octocat .octocat-arm, .octocat .octocat-body {
+    fill: #f4f5f6;
 }

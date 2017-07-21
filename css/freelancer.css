@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -192,17 +192,17 @@ section.success {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
+#highlights .highlights-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#highlights .highlights-item .highlights-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
+#highlights .highlights-item .highlights-link .caption {
   background: rgba(24, 188, 156, 0.9);
   position: absolute;
   width: 100%;
@@ -212,10 +212,10 @@ section.success {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#highlights .highlights-item .highlights-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#highlights .highlights-item .highlights-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -225,18 +225,18 @@ section.success {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#highlights .highlights-item .highlights-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#highlights .highlights-item .highlights-link .caption .caption-content h3,
+#highlights .highlights-item .highlights-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio * {
+#highlights * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #highlights .highlights-item {
     margin: 0 0 30px;
   }
 }
@@ -431,7 +431,7 @@ fieldset[disabled] .btn-success.active {
   border-radius: 100%;
   line-height: 28px;
 }
-.portfolio-modal .modal-content {
+.highlights-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -441,17 +441,17 @@ fieldset[disabled] .btn-success.active {
   padding: 100px 0;
   text-align: center;
 }
-.portfolio-modal .modal-content h2 {
+.highlights-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
 }
-.portfolio-modal .modal-content img {
+.highlights-modal .modal-content img {
   margin-bottom: 30px;
 }
-.portfolio-modal .modal-content .item-details {
+.highlights-modal .modal-content .item-details {
   margin: 30px 0;
 }
-.portfolio-modal .close-modal {
+.highlights-modal .close-modal {
   position: absolute;
   width: 75px;
   height: 75px;
@@ -460,10 +460,10 @@ fieldset[disabled] .btn-success.active {
   right: 25px;
   cursor: pointer;
 }
-.portfolio-modal .close-modal:hover {
+.highlights-modal .close-modal:hover {
   opacity: 0.3;
 }
-.portfolio-modal .close-modal .lr {
+.highlights-modal .close-modal .lr {
   height: 75px;
   width: 1px;
   margin-left: 35px;
@@ -475,7 +475,7 @@ fieldset[disabled] .btn-success.active {
   /* Safari and Chrome */
   z-index: 1051;
 }
-.portfolio-modal .close-modal .lr .rl {
+.highlights-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
   background-color: #2C3E50;
@@ -486,7 +486,7 @@ fieldset[disabled] .btn-success.active {
   /* Safari and Chrome */
   z-index: 1052;
 }
-.portfolio-modal .modal-backdrop {
+.highlights-modal .modal-backdrop {
   opacity: 0;
   display: none;
 }
@@ -513,4 +513,19 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+}
+.octocat {
+  border: 0;
+  color: #f4f5f6;
+  fill: #c0392b;
+  height: 6.2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 6.2rem;
+  z-index: 999999;
+}
+.octocat .octocat-arm,
+.octocat .octocat-body {
+  fill: #f4f5f6;
 }
